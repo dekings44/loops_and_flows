@@ -10,3 +10,10 @@ print(total)
 
 for i in range(1, 11):
     print(i**2)
+
+
+for i in range(len(exp)):
+    print("Month: ", (i+1), "Expense: ", exp[i])
+    total = total + exp[i]
+
+print('Total expense is: ', total)
